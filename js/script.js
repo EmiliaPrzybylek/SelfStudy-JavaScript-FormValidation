@@ -32,13 +32,10 @@ const checkForm = input => {
     })
 }
 
-//argument INPUT z funkcji "chechkForm" przechowuje tablicę z naszymi inputami
-//argument El odnosi się do każdej zmiennej, którą umieściliśmy w tablicy
-
 sendBtn.addEventListener('click', e => {
     e.preventDefault();
 
-    checkForm([usename, pass, pass2, email])
+    checkForm([username, pass, pass2, email]);
 })
 
 
@@ -46,7 +43,7 @@ sendBtn.addEventListener('click', e => {
 clearBtn.addEventListener('click', e => {
     e.preventDefault();
 
-    [usename, pass, pass2, email].forEach(el => {
+    [username, pass, pass2, email].forEach(el => {
         el.value = '';
     })
 
