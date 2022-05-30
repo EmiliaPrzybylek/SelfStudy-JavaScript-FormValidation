@@ -1,2 +1,1 @@
-# SelfStudy-JavaScript-FormValidation
-Excersis from the course
+Exercise from "10 projektów w JavaScript" by Mateusz Maj
